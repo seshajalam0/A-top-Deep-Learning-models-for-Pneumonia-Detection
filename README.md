@@ -6,6 +6,11 @@ In addition to our proposed model, we conduct a comprehensive comparison of five
 
 The proposed approach and comparative analysis demonstrate superior performance in terms of accuracy, sensitivity, and specificity. Additionally, our method significantly reduces the computational cost and inference time, making it feasible for deployment in real-time clinical settings. This study underscores the potential of deep learning in advancing medical diagnostics and highlights the importance of integrating AI-driven solutions in healthcare.
 
+
+**FPN ADDED MODELS**
+
+Two advanced deep learning architectures, RetinaNet and CheXNet, are compared in this research. RetinaNet is a powerful object detection network that excels at identifying objects of varying sizes and scales within an image. It's particularly well-suited for detecting small, localized pneumonia lesions in CXR images. CheXNet, on the other hand, is a deep convolutional neural network specifically designed for analyzing CXR images. It has been shown to be effective in identifying a wide range of chest diseases, including pneumonia. To evaluate the performance of these models, the researchers collected a large dataset of CXR images, each labeled as either positive (indicating pneumonia) or negative. The images were preprocessed to ensure consistency and quality before being fed into the models. Both RetinaNet and CheXNet models were trained on the dataset using a deep learning framework. The training phase entails modifying the model's parameters to reduce the discrepancy between its anticipated outputs and actual labels. After training, the models were tested using typical performance criteria like accuracy, precision, recall, and F1-score. These metrics provide information about the models' capacity to correctly identify pneumonia patients, reduce false positives, and increase true positives. This study will compare the performance of RetinaNet and CheXNet to evaluate which model is more effective at diagnosing pneumonia from 
+CXR pictures. 
 **RESULTS**
 
 
