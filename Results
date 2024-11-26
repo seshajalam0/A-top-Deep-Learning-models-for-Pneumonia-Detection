@@ -1,3 +1,0 @@
-
-
-The output consists of a series of chest X-ray images with the corresponding model output ("Predicted") and ground truth ("Actual") labels superimposed on each image. Green text indicates that the model device properly anticipated the label and that 'anticipated' and 'Actual' correspond (for example, 'Normal' is predicted 'Normal'). Misclassified phrases are shown in red and occur when the "Predicted" does not correlate to the "Actual" (for example, applying the 'Pneumonia' prediction for an image labeled 'Normal'). This analysis demonstrates that the model can detect 'Normal' cases in the majority of cases; however, in some circumstances, it also attempts to classify 'Normal' photos as 'Pneumonia', indicating a trend of false positives.
