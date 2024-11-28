@@ -13,7 +13,7 @@ Two advanced deep learning architectures, RetinaNet and CheXNet, are compared in
 CXR pictures.
 
 
-**RESULTS**
+**RESULTS:**
 
 
 
